@@ -1,0 +1,12 @@
+{
+    "name": "gruehle.devDocsViewer",
+    "title": "DevDocs Viewer",
+    "description": "Viewer for devdocs.io content",
+    "homepage": "https://github.com/gruehle/dev-docs-viewer",
+    "version": "0.1.0",
+    "author": "Glenn Ruehle <gruehle@gmail.com> (http://github.com/gruehle)",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.27.0"
+    }
+}

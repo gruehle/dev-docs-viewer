@@ -1,0 +1,26 @@
+/* Toolbar icon */
+#devdocs-viewer-icon {
+    background: url(book.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 125%;
+    display: inline-block;
+    position: relative;
+    width: 14px;
+    height: 14px;
+    padding-right: 8px;
+    opacity: .7;
+}
+
+#devdocs-viewer-icon.active {
+    opacity: .9;
+}
+
+#devdocs-viewer-icon:hover {
+	opacity: .5;
+}
+
+/* DevDocs panel */
+#devdocs-viewer-iframe {
+    background: white;
+}
