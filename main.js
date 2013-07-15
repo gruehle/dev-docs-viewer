@@ -83,6 +83,13 @@ define(function (require, exports, module) {
                     }
                 }
             }, true);
+            $iframe.contents().get(0).addEventListener("keydown", function (e) {
+                if (e.keyCode === 27) { // ESC key
+                    EditorManager.focusEditor();
+                    e.preventDefault();
+                    e.stopImmediatePropagation();
+                }
+            }, true);
         });
     }
     
@@ -148,13 +155,19 @@ define(function (require, exports, module) {
             editor.selectWordAt(editor.getSelection().start);
         }
         query = editor.getSelectedText();
-        if (!visible) {
-            visible = true;
-            _setPanelVisibility(visible);
-        } else {
+        
+        function _resetDocumentation() {
             // Hack to force the iframe to reload with the new query. 
             $iframe.attr("src", "");
             window.setTimeout(_loadDocumentation, 0);
+        }
+        
+        if (!visible) {
+            visible = true;
+            _setPanelVisibility(visible);
+            window.setTimeout(_resetDocumentation);
+        } else {
+            _resetDocumentation();
         }
     }
     
