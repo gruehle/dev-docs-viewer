@@ -3,15 +3,6 @@
     background: url(book-sprite.svg);
     background-repeat: no-repeat;
     background-position: 0 0;
-/*
-    background-size: 125%;
-    display: inline-block;
-    position: relative;
-    width: 14px;
-    height: 14px;
-    padding-right: 8px;
-    opacity: .7;
-*/
 }
 
 #devdocs-viewer-icon.active {
