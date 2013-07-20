@@ -1,8 +1,9 @@
 /* Toolbar icon */
 #devdocs-viewer-icon {
-    background: url(book.svg);
+    background: url(book-sprite.svg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 0 0;
+/*
     background-size: 125%;
     display: inline-block;
     position: relative;
@@ -10,14 +11,11 @@
     height: 14px;
     padding-right: 8px;
     opacity: .7;
+*/
 }
 
 #devdocs-viewer-icon.active {
-    opacity: .9;
-}
-
-#devdocs-viewer-icon:hover {
-	opacity: .5;
+    background-position: 0 24px;
 }
 
 /* DevDocs panel */
