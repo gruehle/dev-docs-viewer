@@ -1,23 +1,12 @@
 /* Toolbar icon */
 #devdocs-viewer-icon {
-    background: url(book.svg);
+    background: url(devdocs-sprite.svg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 125%;
-    display: inline-block;
-    position: relative;
-    width: 14px;
-    height: 14px;
-    padding-right: 8px;
-    opacity: .7;
+    background-position: 0 0;
 }
 
 #devdocs-viewer-icon.active {
-    opacity: .9;
-}
-
-#devdocs-viewer-icon:hover {
-	opacity: .5;
+    background-position: 0 -24px !important;
 }
 
 /* DevDocs panel */
