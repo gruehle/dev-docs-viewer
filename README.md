@@ -19,8 +19,7 @@ Select **Navigate > Lookup in DevDocs** to search the devdocs.io content using t
 
 Thanks to [@DevDocs](http://twitter.com/DevDocs) for the [great content](http://devdocs.io).
 
-Toolbar icon: [Book](http://thenounproject.com/noun/book/#icon-No14915) designed by [Jordan Delcros](http://thenounproject.com/jordan.delcros) from The Noun Project
-
 ## Version History
 
+07/24/2013 v0.1.1 - New toolbar icon (thanks @larz0!)
 07/13/2013 v0.1.0 - Initial release.
