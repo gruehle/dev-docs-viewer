@@ -21,5 +21,5 @@ Thanks to [@DevDocs](http://twitter.com/DevDocs) for the [great content](http://
 
 ## Version History
 
-07/24/2013 v0.1.1 - New toolbar icon (thanks @larz0!)
+07/24/2013 v0.1.1 - New toolbar icon (thanks @larz!) <br>
 07/13/2013 v0.1.0 - Initial release.
