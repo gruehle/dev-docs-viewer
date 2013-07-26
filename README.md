@@ -6,7 +6,9 @@ This is a [Brackets](http://brackets.io) extension for searching and viewing [de
 
 * Select **File > Extension Manager...** (or click the "brick" icon in the toolbar)
 * Click **Install from URL...**
-* Enter the url of this repo: https://github.com/gruehle/dev-docs-viewer
+* Enter the url of this repo
+ * For Brackets Sprint 27: https://github.com/gruehle/dev-docs-viewer/archive/sprint-27.zip
+ * For Brackets Sprint 28 (or later): https://github.com/gruehle/dev-docs-viewer
 * Click **Install**
 
 ## How to use
