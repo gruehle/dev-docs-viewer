@@ -36,6 +36,7 @@ define(function (require, exports, module) {
         EditorManager       = brackets.getModule("editor/EditorManager"),
         ExtensionUtils      = brackets.getModule("utils/ExtensionUtils"),
         KeyBindingManager   = brackets.getModule("command/KeyBindingManager"),
+        MainViewManager     = brackets.getModule("view/MainViewManager"),
         Menus               = brackets.getModule("command/Menus"),
         NativeApp           = brackets.getModule("utils/NativeApp"),
         PanelManager        = brackets.getModule("view/PanelManager");
@@ -141,7 +142,7 @@ define(function (require, exports, module) {
         .appendTo($("#main-toolbar .buttons"));
     
     // Listen for resize events
-    $(PanelManager).on("editorAreaResize", _resizeIframe);
+    MainViewManager.on("workspaceUpdateLayout", _resizeIframe);
     $("#sidebar").on("panelCollapsed panelExpanded panelResizeUpdate", _resizeIframe);
     
     // Add "Lookup in DevDocs" command
